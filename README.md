@@ -35,5 +35,8 @@ Basic regex characcters:
 - exact number of characters: {}
 - range of number of characters: {minimum, maximum}
 
+
+Few other examples: In r'([a-z])\1+', \1 means backreference in pattern therefore this means find a letter followed by one or more occurences of that same letter.
+
 Sourc:[Link](https://towardsdatascience.com/regular-expressions-clearly-explained-with-examples-822d76b037b4) <br/>
 Check the regex here: [Check](https://regex101.com/)
